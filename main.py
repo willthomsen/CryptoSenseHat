@@ -9,8 +9,13 @@ sense=SenseHat()
 scraper = cfscrape.create_scraper()
 sense.set_rotation(180)
 
+#gold
 w=(255, 255, 0)
+
+#led off
 e=(0,0,0)
+
+#white
 o=(255,255,255)
 
 
