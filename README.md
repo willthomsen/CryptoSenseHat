@@ -6,6 +6,8 @@ Just a basic project for me to get more familar with my RPi4, SenseHat, Python.
 
 [Link to GPIO Header Spliter](https://www.amazon.com/gp/product/B07MCW4KCM/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 
+[Link to SenseHat](https://www.raspberrypi.org/products/sense-hat/)
+
 The reason I bought that was when originally playing with the SenseHat. 
 The CPU of the PI was throwing off the temperatures, so I desided to keep it off the top of the pi.
 Lastly you will see in my code I use Sense.set_rotation(180). With the GPIO spliter your sensehat will be upside down so you have to compensate with this rotation. The buttons are not rotated.
