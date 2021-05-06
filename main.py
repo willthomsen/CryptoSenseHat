@@ -7,7 +7,15 @@ from random import randint
 
 sense=SenseHat()
 scraper = cfscrape.create_scraper()
+
+
+
+#COMMENT THIS LINE OUT IF YOU DONT HAVE YOUR SENSE HAT UPSIDE DOWN LIKE I DO
 sense.set_rotation(180)
+#COMMENT THIS LINE OUT IF YOU DONT HAVE YOUR SENSE HAT UPSIDE DOWN LIKE I DO
+
+
+
 
 #gold
 w=(255, 255, 0)
