@@ -68,14 +68,21 @@ while True:
               cfurl=scraper.get(url).content
               data=json.loads(cfurl)
               dogeprice=data['ticker']['price']
+              url1='https://api.cryptonator.com/api/ticker/btc-usd'
+              cfurl1=scraper.get(url1).content
+              data1=json.loads(cfurl1)
+              btcprice=data1['ticker']['price']
               # Check which direction
               if event.direction == "up":
                 sense.set_pixels(doge_sym)
                 #Just a little break so you can see your created symbol
-                sleep(1.0)
+                sleep(3.0)
                 sense.show_message(dogeprice, scroll_speed=0.10)    # Up arrow
               elif event.direction == "down":
-                sense.show_message(dogeprice, scroll_speed=0.10)
+                
+                sense.set_pixels(bitcoin_sym)
+                sleep(3.0)
+                sense.show_message(btcprice, scroll_speed=0.10)
 
               elif event.direction == "left":
                 sense.show_message(dogeprice, scroll_speed=0.10)
