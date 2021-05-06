@@ -8,6 +8,9 @@ Just a basic project for me to get more familar with my RPi4, SenseHat, Python.
 
 [Link to SenseHat](https://www.raspberrypi.org/products/sense-hat/)
 
+[Link](https://vpn-expert.info/bitcoin-price-tracker-with-raspberry-pi-sense-hat-and-python/) to the guide that inspired me to build this with the SenseHat.
+
+
 The reason I bought that was when originally playing with the SenseHat. 
 The CPU of the PI was throwing off the temperatures, so I desided to keep it off the top of the pi.
 Lastly you will see in my code I use Sense.set_rotation(180). With the GPIO spliter your sensehat will be upside down so you have to compensate with this rotation. The buttons are reversed. 
