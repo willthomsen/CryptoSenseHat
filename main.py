@@ -91,7 +91,7 @@ while True:
                 sense.show_message(dogeprice, scroll_speed=0.10)
                 
                 
-              #currently used to debug and correct symbols        
+              #currently used to test the look of custom symbols        
               elif event.direction == "middle":
                 sense.set_pixels(bitcoin_sym)
                 ##sense.show_message(dogeprice, scroll_speed=0.10)
